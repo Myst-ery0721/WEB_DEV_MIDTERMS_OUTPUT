@@ -1,0 +1,64 @@
+/* Index.css */
+body {
+  margin: 0;
+  font-family: 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', sans-serif;
+  font-size: 16px;
+  line-height: 1.6;
+  background-color: #fdfaf6; 
+  color: #333; 
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: #4a3622; 
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+nav h1 {
+  margin: 0;
+  color: white;
+  font-size: 1.5rem;
+}
+
+nav a {
+  color: #d3ad7f; 
+  padding: 8px 12px;
+  border-radius: 4px;
+  text-decoration: none;
+  font-size: 1rem;
+  transition: background-color 0.2s, color 0.2s;
+}
+
+nav a:hover {
+  background-color: #d3ad7f;
+  color: #4a3622;
+}
+
+nav a.active {
+  background-color: #4a3622;
+  color: white;
+}
+
+.App {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+footer {
+  margin-top: 40px;
+  padding: 10px 20px;
+  background-color: #4a3622;
+  color: white;
+  text-align: center;
+  border-radius: 8px;
+}
